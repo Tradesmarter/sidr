@@ -20,7 +20,7 @@ module.exports = function(grunt) {
       },
       pkg: {
         files: {
-          'package/jquery.<%= pkg.name %>.min.js': ['dist/jquery.<%= pkg.name %>.js']
+          'dist/jquery.<%= pkg.name %>.min.js': ['dist/jquery.<%= pkg.name %>.js']
         }
       }
     },
