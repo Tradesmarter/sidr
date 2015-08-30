@@ -1,0 +1,25 @@
+{
+  "name": "sidr",
+  "version": "1.2.1",
+  "homepage": "https://github.com/mmgm/sidr",
+  "authors": [
+    "Omri Gilad <omri@tradesmarter.com>"
+  ],
+  "description": "Sidr sidemenu plugin, enhanced to use velocity.js",
+  "main": "dist/jquery.sidr.js",
+  "moduleType": [
+    "globals"
+  ],
+  "dependencies": {
+    "jquery": ">=1.4.3",
+    "velocity": "~1.2.2"
+  },
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
