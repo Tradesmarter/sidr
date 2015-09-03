@@ -62,37 +62,25 @@
   box-shadow: inset 0 0 15px 3px #ebebeb;
 }
 /* line 66, ../../src/scss/sidr/_base.scss */
-.sidr ul li a, .sidr ul li span {
-  padding: 0 15px;
-  display: block;
-  text-decoration: none;
-  color: #333;
-}
-/* line 73, ../../src/scss/sidr/_base.scss */
 .sidr ul li ul {
   border-bottom: none;
   margin: 0;
 }
-/* line 76, ../../src/scss/sidr/_base.scss */
+/* line 69, ../../src/scss/sidr/_base.scss */
 .sidr ul li ul li {
   line-height: 40px;
   font-size: 13px;
 }
-/* line 80, ../../src/scss/sidr/_base.scss */
+/* line 73, ../../src/scss/sidr/_base.scss */
 .sidr ul li ul li:last-child {
   border-bottom: none;
 }
-/* line 84, ../../src/scss/sidr/_base.scss */
+/* line 77, ../../src/scss/sidr/_base.scss */
 .sidr ul li ul li:hover, .sidr ul li ul li.active, .sidr ul li ul li.sidr-class-active {
   border-top: none;
   line-height: 41px;
 }
-/* line 90, ../../src/scss/sidr/_base.scss */
+/* line 83, ../../src/scss/sidr/_base.scss */
 .sidr ul li ul li:hover > a, .sidr ul li ul li:hover > span, .sidr ul li ul li.active > a, .sidr ul li ul li.active > span, .sidr ul li ul li.sidr-class-active > a, .sidr ul li ul li.sidr-class-active > span {
   box-shadow: inset 0 0 15px 3px #ebebeb;
-}
-/* line 95, ../../src/scss/sidr/_base.scss */
-.sidr ul li ul li a, .sidr ul li ul li span {
-  color: rgba(51, 51, 51, 0.8);
-  padding-left: 30px;
 }
