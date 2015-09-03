@@ -63,7 +63,7 @@ module.exports = function(grunt) {
       prod: {
         options: {
           sassDir: 'src/scss',
-          cssDir: 'package/stylesheets',
+          cssDir: 'dist/stylesheets',
           environment: 'production'
         }
       }
